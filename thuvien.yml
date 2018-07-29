@@ -1,4 +1,19 @@
 name: thuvien
 dependencies:
-  - python=3.5
-  - jupyterlab
+  - jupyterlab  # Interactive Computing
+  - pytest  # Testing
+  - numpy  # Scientific Computing
+  - matplotlib  # Data Visualization
+  - pandas  # Data Analysis
+  - sqlalchemy  # Database Toolkit
+  - scrapy  # Web Crawling
+  - flask  # Microframework
+  - pillow  # Image Processing
+  - spacy  # Natural Language Processing
+  - scikit-learn  # Machine Learning
+  - pytorch  # Deep Learning
+  - pip:
+    - nikola  # Static Site
+    - dash dash-html-components dash-core-components  # Web App
+    - lightgbm  # ...
+    - pyro-ppl  # Probabilistic Programming
